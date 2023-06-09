@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../headerYlateral.css">
+    <link rel="stylesheet" type="text/css" href="../partesAplicacion.css">
+    <meta charset="UTF-8">
+    <script src="../menudesplegable.js"></script>
+    <title>no va</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <div class="menu-icono" onclick="abrirYcerrarDesplegable()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <img src="../imagenes/logo-marca.png" alt="imagen Logo">
+    </header>
+    <div id="desplegable" class="menu-desplegable-cerrado">
+        <a class="contenedorPaginas" href="../index.html"><img src="../imagenes/casita.svg" alt="menu inicial"
+                style="width: 50px;height: auto;"></a>
+        <a class="contenedorPaginas" href="../pantallaCarga/pantallaCarga.html">Pantalla de carga</a>
+        <a class="contenedorPaginas" href="../inicio/inicio.html">Inicio</a>
+        <a class="contenedorPaginas" href="../menu/menu.html">Menú</a>
+    </div>
+    <main>
+        <div class="todo-contenido">
+            <h1>Selector de Productos</h1>
+            <p>Este menú estará en todas las vistas a partir de ahora. Cuenta con varias opcines.</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/menu/menu.png" alt="menu">
+            </div>
+
+
+            <h2>Listas favoritas</h2>
+            <p>Una vez pulsado el botón de “Nueva Lista”, se accede a la vista en la cual se seleccionan los productos
+                que van a formar la lista.
+                Esta vista está formada inicialmente por los siguientes apartados.</p>
+
+            <h2>el buscador</h2>
+            <p>En el buscador se escribe el nombre del producto el cual se quiere añadir a
+                la lista. Una vez escrito, se desplegará el producto con el nombre y se
+                pulsará el botón verde con el icono del carro “añadir a cesta”.</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/buscador1.png" alt="buscador sin buscar nada">
+                <img src="../imagenes/selectorProductos/buscador2.png" alt="buscador buscado producto">
+            </div>
+
+            <h2>Botón de unidades</h2>
+            <p>Junto con el buscador, hay un botón “Unidades” azul, el cual dictará cuantas
+                unidades se van a añadir de ese producto.</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/botonUnidades.png" alt="Pulsando boton Mi Cesta">
+            </div>
+            <h2>Mi cesta</h2>
+            <p>Botón que al pulsar accederá a la lista actual, la lista a la que se añaden los
+                productos. Como podemos observar, la cesta tiene varios componentes:</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/bontonMiCesta.png" alt="Pulsando boton Mi Cesta">
+                <img src="../imagenes/selectorProductos/cestaProducto.png" alt="Cesta de los productos añadidos">
+            </div>
+
+            <h2>Productos</h2>
+            <p>Los productos añadidos desde el buscador. Para eliminar un producto
+                solo tendremos que deslizarlo hacia la izquierda y aparecerá una
+                papelera blanca sobre un fondo rojo.</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/productosAnadidos.png" alt="Mi cesta">
+            </div>
+
+            <h2>Guardar lista</h2>
+            <p>Tras pulsar este botón verde que se encuentra en la parte inferior
+                izquierda de la pantalla, automáticamente se guarda la lista actual con
+                el nombre que escojamos.</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/pulsarGuardarLista.png" alt="Pulsando boton para guardar lista">
+                <img src="../imagenes/selectorProductos/escribiendoNombreListaFavorita.png"
+                    alt="Escribiendo nombre de lista favorita">
+            </div>
+
+            <h2>Confirmar lista</h2>
+            <p>Al seleccionar este botón verde el cual se encuentra en la parte
+                inferior derecha de la pantalla, confirmaremos que la lista está
+                finalizada y se aplicará el logaritmo que decidirá la mejor opción de
+                compra. Una vez pulsado el botón aparecerá una nueva vista con el
+                resultado del logaritmo.</p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/confirmarLista.png"
+                    alt="Confirmando la lista de productos guardados">
+                <img src="../imagenes/selectorProductos/resultado.png" alt="Resultado tras el filtado">
+            </div>
+
+            <h2>Producto favoritos</h2>
+            <p>Pulsando la estrella que se encuentra al
+                lado de cada producto de la lista, se
+                añadirá dicho producto a la lista de
+                productos favoritos. Para eliminar algún
+                producto, deslizamos dicho producto
+                hacia la izquierda y nos aparecerá un
+                icono de una papelera blanca sobre un
+                fondo rojo.
+            </p>
+            <div class="imagen-contenedor">
+                <img src="../imagenes/selectorProductos/guardarProductosFavoritos.png"
+                    alt="Guardando producto favorito">
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
